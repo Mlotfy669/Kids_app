@@ -38,8 +38,7 @@ a {
     z-index: 100000;
     text-align: center;
     @media (max-width: 600px) {
-      background-size: contain;
-      height: 153px;
+      height: auto;
     }
     .title {
       height: calc(100vh - 250px);
@@ -417,7 +416,7 @@ a {
     }
   }
   footer {
-    height: 150px;
+    height: 120px;
     background-color: #2f375e;
     display: flex;
     justify-content: flex-end;
@@ -430,11 +429,11 @@ a {
       @media(max-width:600px){
         width: 140px;
       }
-      img {
-        width: 100px;
-        @media(max-width:600px){
-          width: 80px;
-        }
+      span {
+        color: white;
+    font-weight: bold;
+    font-size: 23px;
+      
       }
     }
   }
