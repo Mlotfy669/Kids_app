@@ -509,6 +509,9 @@ a {
     height: 100px;
   }
 }
+.page footer div {
+  margin: auto;
+}
 .page footer div span {
   color: white;
   font-weight: bold;
